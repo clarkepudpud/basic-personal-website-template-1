@@ -1,40 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Clarke Pudpud | Developer</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <img class="profile-pic" src="c40af285-065f-4035-8d94-fcf55caad92c.jpg" alt="Profile Picture">
-            <h1>Clarke Pudpud</h1>
-            <h2>Full-Stack Developer</h2>
-            <nav>
-                <a href="#about"><h4>About</h4></a>
-                <a href="#projects"><h4>Projects</h4></a>
-                <a href="#experience"><h4>Experience</h4></a>
-                <a href="#contact"><h4>Contact</h4></a>
-            </nav>
-        </header>
+<head>
+    <!-- for css -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- for seo -->
+    <meta name="author" content="Clarke Pudpud">
+    <meta name="description" content="Personal intermediate website of Clarke Pudpud, a Full-Stack Developer.">
+
+    <!-- tab title -->
+    <title>Personal Intermediate Website</title>
+    
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- body content -->
+<body id="home">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>        
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Hi, I'm Clarke Pudpud</h1>
+        <p>Full-Stack Developer</p>
+
+        <!-- Profile Picture -->
+        <img class="profile-picture" id="profileImg" 
+        src="profile/c40af285-065f-4035-8d94-fcf55caad92c.jpg" alt="Profile Picture">
+    </header>
+
+    <!-- Modal -->
+    <div id="imgModal" class="modal">
+    <span class="close">&times;</span>
+    <img id="modalImg" class="modal-content">
+    </div>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- about -->
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm Clarke Pudpud, a passionate full-stack developer with experience in building web applications using modern technologies.</p>
+            <p>
+                Hello! I'm Clarke, a Full-Stack Developer. 
+                I enjoy creating websites and learning new technologies.
+            </p>
         </section>
+
+        <!-- projects -->
         <section id="projects">
             <h2>Projects</h2>
-            <p>Here are some of my recent projects:</p>
+            <p>Project 1: Description of project 1.</p>
+            <p>Project 2: Description of project 2.</p>
+            <p>Project 3: Description of project 3.</p>
         </section>
+
+        <!-- experience-->
         <section id="experience">
             <h2>Experience</h2>
-            <p>I have worked at various companies, contributing to both front-end and back-end development.</p>
+            <p>
+                I have worked on various projects in web development,
+                including front-end and back-end technologies.
+            </p>
         </section>
+
+        <!-- contact -->
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>You can reach me at: <a href="mailto: clarkepudpud@gmail.com">clarkepudpud@gmail.com</a></p>
+            <p>
+                You can reach me at:
+                <a href="https://www.linkedin.com/in/clarke-lendyl-pudpud-a3b73a379/" target="_blank">LinkedIn</a>
+                <a href="https://www.facebook.com/clarkelendylpudpud" target="_blank">Facebook</a>
+                <a href="https://x.com/clarkepudpud" target="_blank">X (Twitter)</a>
+                <a href="mailto:clarkepudpud@gmail.com">clarkepudpud@gmail.com</a>
+            </p>
         </section>
-        <footer>
-            <p>&copy; 2025 Clarke Pudpud</p>
-    </body>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Clarke Pudpud. All rights reserved.</p>
+    </footer>
+
+    <!-- link to js -->
+    <script src="script.js"></script>
+</body>
 </html>
